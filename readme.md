@@ -1,4 +1,4 @@
-# RestAPI for Creating QR Codes
+# API for Creating QR Codes
 
 This assignment is to get you accustomed to running the project and following the steps that the program uses to process requests.
 
