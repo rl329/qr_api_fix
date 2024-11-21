@@ -58,7 +58,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: rl329/qri_api_fix:${{ github.sha }} # Uses the Git SHA for tagging
+          tags: rl329/qr_api_fix:${{ github.sha }} # Uses the Git SHA for tagging
           platforms: linux/amd64,linux/arm64 # Multi-platform support
           cache-from: type=registry,ref=rl329/qr_api_fix:cache
           cache-to: type=inline,mode=max
